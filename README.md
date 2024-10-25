@@ -1,3 +1,6 @@
+![plot](./assets/banner.png)
+
+
 # The Julia Language for Productive High-Performance Computing Tutorial @ SC24
 
 ## Apply for your Training at a DOE Supercomputer Now!
