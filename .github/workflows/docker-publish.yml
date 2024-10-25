@@ -1,0 +1,104 @@
+# Based on https://docs.github.com/en/actions/publishing-packages/publishing-docker-images
+
+name: Publish Docker image
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    # Publish semver tags as releases.
+    tags: [ 'v*.*.*' ]
+    paths:
+      - '.github/workflows/docker-publish.yml'
+      - 'Dockerfile'
+      - 'Manifest.toml'
+      - 'Project.toml'
+      - 'julia_cpu_target.sh'
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - '.github/workflows/docker-publish.yml'
+      - 'Dockerfile'
+      - 'Manifest.toml'
+      - 'Project.toml'
+      - 'julia_cpu_target.sh'
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+concurrency:
+  # Skip intermediate builds: always.
+  # Cancel intermediate builds: always.
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-push-image:
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      # This is used to complete the identity challenge
+      # with sigstore/fulcio when running outside of PRs.
+      id-token: write
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Docker is terrible and doesn't like uppercase image names.
+      - name: Lowercase image name
+        run: |
+          IMAGE_NAME=$(echo ${IMAGE_NAME} | tr A-Z a-z)
+          echo "IMAGE_NAME=${IMAGE_NAME}" >> "${GITHUB_ENV}"
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+        with:
+          platforms: arm64
+
+      # Needed to make caching on GHA work: https://stackoverflow.com/a/73884678.
+      # https://github.com/docker/setup-buildx-action
+      - name: Setup Docker buildx
+        uses: docker/setup-buildx-action@v3
+
+      # Log into the registry except on PRs.
+      # https://github.com/docker/login-action
+      - name: Log into registry ${{ env.REGISTRY }}
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # Extract metadata (tags, labels) for Docker
+      # https://github.com/docker/metadata-action
+      - name: Extract Docker metadata
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
+      # Build and push Docker image with Buildx (don't push on PR)
+      # https://github.com/docker/build-push-action
+      - name: Build and push Docker image
+        id: build-and-push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: ${{ github.event_name != 'pull_request' }}
+          # Note: building only for `linux/amd64` takes about 5 minutes, building also for
+          # `linux/arm64` takes about 40 minutes because QEMU is super slow.  If you're
+          # desperate about build times remove `linux/arm64`, but keep in mind the
+          # `linux/amd64` image won't work very well on Apple Silicon.
+          platforms: linux/amd64,linux/arm64
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          # See: https://docs.docker.com/build/ci/github-actions/cache/#github-cache
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
