@@ -1,0 +1,33 @@
+{
+    "name": "Julia Tutorial at Supercomputing 24",
+    "image": "ghcr.io/juliaparallel/julia-hpc-tutorial-sc24:main",
+
+    "customizations": {
+	"vscode": {
+	    "extensions": [
+		"julialang.language-julia",
+		"ms-toolsai.jupyter",
+	    ]
+	}
+    },
+
+    "containerEnv": {
+	// Automatically use all threads available.
+	"JULIA_NUM_THREADS": "auto",
+    },
+
+    // Forward Jupyter port
+    "forwardPorts": [8888],
+    "portsAttributes": {
+	"8888": {
+	    "label": "JupyterLab server",
+	    "requireLocalPort": true,
+	    "onAutoForward": "ignore"
+	}
+    },
+
+    // Use 'postAttachCommand' to run commands after the container is started.
+    // Use tokenless server to be able to easily launch the app in Codespaces.
+    "postAttachCommand": "julia -e 'import Conda; run(`$(joinpath(Conda.SCRIPTDIR, \"jupyter\")) lab --allow-root --LabApp.token='' --port 8888`)'",
+
+}
