@@ -1,0 +1,12 @@
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+ChunkSplitters = "ae650224-84b6-46f8-82ea-d812ca08434e"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+
+[compat]
+BenchmarkTools = "1.5"
+ChunkSplitters = "3.1"
+IJulia = "1.25"
+OhMyThreads = "0.7"
+julia = "1.11"
