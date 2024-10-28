@@ -9,12 +9,15 @@ This repository contains the material used for [The Julia Language for Productiv
 
 We will post a signup form soon. Please check here again at least one month before the start of SC24
 
-
 ## Julia for HPC Birds of a Feather session @ SC24
 
 We will again host a [Julia for HPC BoF at SC24](https://github.com/JuliaParallel/julia-hpc-bof-sc24)
 
 ## Running JupyterLab
+
+## On NERSC
+
+We will post instructions on how to use this repo's Jupyter Kernel at NERSC
 
 ### Locally
 
