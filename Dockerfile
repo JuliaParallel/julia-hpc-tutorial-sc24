@@ -18,5 +18,5 @@ RUN julia --color=yes -e 'using InteractiveUtils; versioninfo()'
 # Instantiate Julia project
 RUN mkdir -p /root/.julia/environments/v1.11
 COPY Project.toml  /root/.julia/environments/v1.11/Project.toml
-COPY Manifest.toml /root/.julia/environments/v1.11/Manifest.toml
+COPY Manifest-v1.11.toml /root/.julia/environments/v1.11/Manifest.toml
 RUN . /julia_cpu_target.sh && julia --color=yes -e 'using Pkg; Pkg.instantiate(); import Conda; Conda.add("jupyterlab")'

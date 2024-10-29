@@ -5,4 +5,4 @@ IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 [compat]
 Conda = "1.10"
 IJulia = "1.25"
-julia = "1.11"
+julia = "1.10"
