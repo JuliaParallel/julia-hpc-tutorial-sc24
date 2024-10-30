@@ -22,4 +22,4 @@ JULIA_EXEC=$(which julia)
 KERNEL="${ijulia_boostrap[-1]}"
 
 echo "Connecting using JULIA_EXEC=$JULIA_EXEC and KERNEL=$KERNEL"
-exec $JULIA_EXEC -i --s
+exec $JULIA_EXEC -i --startup-file=yes --color=yes $KERNEL "$@"
