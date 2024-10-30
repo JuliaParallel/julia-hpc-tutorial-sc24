@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "{resource_dir}/kernel-helper.sh",
+    "python",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ],
+  "display_name": "Julia Tutorial Single Threaded",
+  "language": "Julia",
+  "metadata": {
+    "debugger": true
+  }
+}
