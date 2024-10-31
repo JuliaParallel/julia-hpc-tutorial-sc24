@@ -25,16 +25,14 @@ do
     mkdir -p ${kernel_dir}
     echo "Creating Kernel at: ${kernel_dir}"
 
-    \
-        THREADS_NAME=${JUPYTER_THREADS_NAME[$kernel]} \
-        ${__INSTALL_SH_DIR}/lib/mo \
+    THREADS_NAME=${JUPYTER_THREADS_NAME[$kernel]} \
+    ${__INSTALL_SH_DIR}/lib/mo \
         ${__INSTALL_SH_DIR}/nersc/jupyter/template/kernel.json \
         > ${kernel_dir}/kernel.json
 
-    \
-        THREADS_CT=${JUPYTER_THREADS_CT[$kernel]} \
-        KERNEL_RESOURCE_DIR=${__INSTALL_SH_DIR}/nersc/ \
-        ${__INSTALL_SH_DIR}/lib/mo \
+    THREADS_CT=${JUPYTER_THREADS_CT[$kernel]} \
+    NERSC_RESOURCE_DIR=${__INSTALL_SH_DIR}/nersc/ \
+    ${__INSTALL_SH_DIR}/lib/mo \
         ${__INSTALL_SH_DIR}/nersc/jupyter/template/kernel-helper.sh \
         > ${kernel_dir}/kernel-helper.sh
 
@@ -43,5 +41,14 @@ do
     cp ${__INSTALL_SH_DIR}/nersc/jupyter/template/logo-64x64.png ${kernel_dir}
 done
 
+TUTORIA_REPO_DIR=${__INSTALL_SH_DIR} \
+${__INSTALL_SH_DIR}/lib/mo \
+    ${__INSTALL_SH_DIR}/nersc/template/activate.sh \
+    > ${__INSTALL_SH_DIR}/activate.sh
+
+TUTORIA_REPO_DIR=${__INSTALL_SH_DIR} \
+${__INSTALL_SH_DIR}/lib/mo \
+    ${__INSTALL_SH_DIR}/nersc/template/deactivate.sh \
+    > ${__INSTALL_SH_DIR}/deactivate.sh
 
 echo "Done"

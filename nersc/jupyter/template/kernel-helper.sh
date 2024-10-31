@@ -5,10 +5,10 @@ module load python
 module load julia
 
 
-export JULIA_DEPOT_PATH=$SCRATCH/depot
+export JULIA_DEPOT_PATH=${SCRATCH}/depot
 export JULIA_NUM_THREADS={{THREADS_CT}}
 
-readarray -t ijulia_boostrap < <(julia {{KERNEL_RESOURCE_DIR}}/bootstrap.jl)
+readarray -t ijulia_boostrap < <(julia {{NERSC_RESOURCE_DIR}}/bootstrap.jl)
 
 echo "Check-and-install returned following output:"
 _IFS=$IFS
