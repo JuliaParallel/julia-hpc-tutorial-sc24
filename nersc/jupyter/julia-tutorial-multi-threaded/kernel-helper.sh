@@ -1,6 +1,7 @@
 #!/bin/bash
 
 module load PrgEnv-gnu
+module load python
 module load julia
 
 

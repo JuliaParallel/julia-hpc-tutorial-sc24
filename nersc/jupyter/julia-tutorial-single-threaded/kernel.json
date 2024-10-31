@@ -1,14 +1,12 @@
 {
+  "display_name": "Julia Tutorial Single Threaded",
   "argv": [
     "{resource_dir}/kernel-helper.sh",
-    "python",
-    "-m",
-    "ipykernel_launcher",
-    "-f",
     "{connection_file}"
   ],
-  "display_name": "Julia Tutorial Single Threaded",
-  "language": "Julia",
+  "language": "julia",
+  "env": {},
+  "interrupt_mode": "signal",
   "metadata": {
     "debugger": true
   }
