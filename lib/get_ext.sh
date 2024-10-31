@@ -2,7 +2,7 @@
 set -eu
 
 __GET_EXT_SH_DIR=$(
-    cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd 
+    cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd
 )
 
 pushd $__GET_EXT_SH_DIR
