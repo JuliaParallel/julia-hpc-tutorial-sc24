@@ -32,6 +32,7 @@ do
 
     THREADS_CT=${JUPYTER_THREADS_CT[$kernel]} \
     NERSC_RESOURCE_DIR=${__INSTALL_SH_DIR}/nersc/ \
+    TUTORIAL_REPO_DIR=${__INSTALL_SH_DIR} \
     ${__INSTALL_SH_DIR}/lib/mo \
         ${__INSTALL_SH_DIR}/nersc/jupyter/template/kernel-helper.sh \
         > ${kernel_dir}/kernel-helper.sh
@@ -46,7 +47,7 @@ ${__INSTALL_SH_DIR}/lib/mo \
     ${__INSTALL_SH_DIR}/nersc/template/activate.sh \
     > ${__INSTALL_SH_DIR}/activate.sh
 
-TUTORIA_REPO_DIR=${__INSTALL_SH_DIR} \
+TUTORIAL_REPO_DIR=${__INSTALL_SH_DIR} \
 ${__INSTALL_SH_DIR}/lib/mo \
     ${__INSTALL_SH_DIR}/nersc/template/deactivate.sh \
     > ${__INSTALL_SH_DIR}/deactivate.sh

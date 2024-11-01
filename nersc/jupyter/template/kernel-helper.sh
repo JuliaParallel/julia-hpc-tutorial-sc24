@@ -5,6 +5,7 @@ module load python
 module load julia
 
 
+export JULIA_PROJECT={{TUTORIAL_REPO_DIR}}
 export JULIA_DEPOT_PATH=${SCRATCH}/depot
 export JULIA_NUM_THREADS={{THREADS_CT}}
 
