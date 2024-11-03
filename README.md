@@ -21,9 +21,6 @@ We will post instructions on how to use this repo's Jupyter Kernel at NERSC
 
 ### Locally
 
-> [!NOTE]
-> This is our recommended option, as you will more easily be able to keep playing with the notebook afterwards.
-
 Clone this repository (make sure to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)) and then enter inside the new directory by running the following commands in a terminal (we recommend using [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4) if on Windows):
 
 ```sh
@@ -85,6 +82,9 @@ The JupyterLab environment is accessed as a web app, so you should open a browse
 If you get `Unable to connect` message or similar when trying to open the URL, you may need to replace the `0.0.0.0` component with `localhost`, so for the example above you would navigate to `http://localhost:8888/lab?token=4775e74fd85e95632e1cfeb32753eb3d009ca0fb76fca3b0`.
 
 ### GitHub Codespaces
+
+> [!NOTE]
+> GitHub Codespaces is a convenient environment for running notebooks on the web for free, but the resources on the free plan are limited, and parallel scaling efficiency may be be poor in some cases.
 
 You can also take advantage of the ability of [GitHub Codespaces](https://github.com/features/codespaces) to run custom web apps.
 Go go the [Codespaces page of this repository](https://github.com/JuliaParallel/julia-hpc-tutorial-sc24/codespaces), click on the green button on the top right "Create codespace on main" and wait a few seconds for the codespace to start.
