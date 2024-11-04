@@ -20,7 +20,10 @@ ml load julia
 __job_script_dir=$(
     cd -- "$( dirname -- "${bash_source[0]}" )" &> /dev/null && pwd
 )
-source ${__job_script_dir}/../../activate.sh
+# NOTE: because the `solution folder is at a deeper level from the project root
+# as the excercise, we've added an additional `/..` to get back to the
+# `activate.sh`
+source ${__job_script_dir}/../../../activate.sh
 
 # Run the Julia code -- we're usign `srun` to launch Julia. This is necessary
 # to configure MPI. If you tried to use `MPI.Init()` outside of an srun, then
