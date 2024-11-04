@@ -12,7 +12,7 @@ declare -a JUPYTER_KERNELS=(
 )
 declare -a JUPYTER_THREADS_CT=(
     "1"
-    "4"
+    "16"
 )
 declare -a JUPYTER_THREADS_NAME=(
     "Single"
