@@ -11,16 +11,6 @@
 # Load the latest Julia Module
 ml load julia
 
-# this will load the activate.sh in the root path of this repository -- the
-# __job_script_dir points to the location of _this_ file in the file system (
-# the bash invocation is a bit of arcane code to convert bash_source to a
-# reasonable path on the file system). things like this are not strictly
-# necessary, but they reduce the likelihood of mishaps (eg. forgetting to
-# source activate.sh, or running this script from a different working
-# directory)
-__job_SCRIPT_DIR=$(
-    cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd
-)
 # NOTE: because the `solution folder is at a deeper level from the project root
 # as the excercise, we've added an additional `/..` to get back to the
 # `activate.sh`
