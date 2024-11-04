@@ -42,6 +42,8 @@ do
     cp ${__INSTALL_SH_DIR}/nersc/jupyter/template/logo-64x64.png ${kernel_dir}
 done
 
+echo "Generating 'activate.sh' and 'deactivate.sh' in: ${__INSTALL_SH_DIR}" 
+
 TUTORIAL_REPO_DIR=${__INSTALL_SH_DIR} \
 ${__INSTALL_SH_DIR}/lib/mo \
     ${__INSTALL_SH_DIR}/nersc/template/activate.sh \
@@ -51,5 +53,10 @@ TUTORIAL_REPO_DIR=${__INSTALL_SH_DIR} \
 ${__INSTALL_SH_DIR}/lib/mo \
     ${__INSTALL_SH_DIR}/nersc/template/deactivate.sh \
     > ${__INSTALL_SH_DIR}/deactivate.sh
+
+echo "Instatiating Julia environment at: ${__INSTALL_SH_DIR}" 
+
+source ${__INSTALL_SH_DIR}/activate.sh
+julia -e "import Pkg; Pkg.instantiate()"
 
 echo "Done"

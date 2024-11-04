@@ -4,6 +4,9 @@ module load PrgEnv-gnu
 module load python
 module load julia
 
+ml use /global/common/software/nersc/julia_hpc_24/modules/
+ml load cray-hdf5-parallel
+ml load adios2
 
 export JULIA_PROJECT={{TUTORIAL_REPO_DIR}}
 export JULIA_DEPOT_PATH=${SCRATCH}/depot
