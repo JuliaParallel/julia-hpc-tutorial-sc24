@@ -17,7 +17,7 @@ We will again host a [Julia for HPC BoF at SC24](https://github.com/JuliaParalle
 
 After connecting to your training account via SSH, proceed with the following steps to run the entire model.
 
-```
+```sh
 cd $SCRATCH
 git clone https://github.com/Rabab53/GrayScott.jl.git
 cd GrayScott.jl/
