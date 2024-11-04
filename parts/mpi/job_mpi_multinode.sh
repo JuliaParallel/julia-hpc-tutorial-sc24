@@ -1,9 +1,4 @@
 #!/bin/bash
-
-__JOB_SCRIPT_DIR=$(
-    cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd
-)
-
 #SBATCH -A ntrain1
 #SBATCH -C cpu
 #SBATCH -q regular
@@ -12,7 +7,23 @@ __JOB_SCRIPT_DIR=$(
 #SBATCH --nodes=4
 #SBATCH --ntasks=16
 
+# Load the latest Julia Module
 ml load julia
-source ${__JOB_SCRIPT_DIR}/../../activate.sh
 
+# this will load the activate.sh in the root path of this repository -- the
+# __job_script_dir points to the location of _this_ file in the file system (
+# the bash invocation is a bit of arcane code to convert bash_source to a
+# reasonable path on the file system). things like this are not strictly
+# necessary, but they reduce the likelihood of mishaps (eg. forgetting to
+# source activate.sh, or running this script from a different working
+# directory)
+__job_script_dir=$(
+    cd -- "$( dirname -- "${bash_source[0]}" )" &> /dev/null && pwd
+)
+source ${__job_script_dir}/../../activate.sh
+
+# Run the Julia code -- we're usign `srun` to launch Julia. This is necessary
+# to configure MPI. If you tried to use `MPI.Init()` outside of an srun, then
+# the program will crash. Note also that you can't run an srun _insite_ of
+# another srun.
 srun julia -e 'do_save=false; include("diffusion_2d_mpi.jl");'
