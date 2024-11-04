@@ -42,7 +42,7 @@ do
     cp ${__INSTALL_SH_DIR}/nersc/jupyter/template/logo-64x64.png ${kernel_dir}
 done
 
-TUTORIA_REPO_DIR=${__INSTALL_SH_DIR} \
+TUTORIAL_REPO_DIR=${__INSTALL_SH_DIR} \
 ${__INSTALL_SH_DIR}/lib/mo \
     ${__INSTALL_SH_DIR}/nersc/template/activate.sh \
     > ${__INSTALL_SH_DIR}/activate.sh
