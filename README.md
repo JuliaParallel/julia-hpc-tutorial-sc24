@@ -104,3 +104,19 @@ This will open the JupyterLab landing page in a new tab in your browser.
 If you want to make your app accessible to others (please remember to make sure there's no sensitive or private data in it!), navigate to the "Ports" tab, right click on the port 8888 and then "Port visibility" -> "Public".
 
 The `.devcontainer` used here has been adapted from the [Julia workshop for the UCL Festival of Digital Research & Scholarship 2024](https://github.com/UCL-ARC/julia-workshop), in turn based on the [Zero-setup R workshops with GitHub Codespaces](https://github.com/revodavid/devcontainers-rstudio) repository presented at [rstudio::conf 2022](https://rstudioconf2022.sched.com/event/11iag/zero-setup-r-workshops-with-github-codespaces).
+
+## Gray Scott reaction diffusion modle 
+
+After connecting to your training account via SSH, proceed with the following steps to run the entire model. 
+
+```
+cd $SCRATCH
+git clone https://github.com/Rabab53/GrayScott.jl.git
+cd GrayScott.jl/
+source scripts/config_perlmutter.sh
+
+sbatch scripts/job_perlmutter_plain_cpu.sh
+sbatch scripts/job_perlmutter_ka_cpu.sh
+sbatch scripts/job_perlmutter_plain_cuda.sh
+sbatch scripts/job_perlmutter_plain_cuda.sh
+```
