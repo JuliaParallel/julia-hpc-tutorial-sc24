@@ -118,5 +118,5 @@ source scripts/config_perlmutter.sh
 sbatch scripts/job_perlmutter_plain_cpu.sh
 sbatch scripts/job_perlmutter_ka_cpu.sh
 sbatch scripts/job_perlmutter_plain_cuda.sh
-sbatch scripts/job_perlmutter_plain_cuda.sh
+sbatch scripts/job_perlmutter_ka_cuda.sh
 ```
