@@ -1,6 +1,7 @@
 [deps]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 ChunkSplitters = "ae650224-84b6-46f8-82ea-d812ca08434e"
 Conda = "8f4d0f93-b110-5947-807f-2305c1781a2d"
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
@@ -8,6 +9,7 @@ KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
 OhMyThreads = "67456a42-1dca-4109-a031-0a68de7e3ad5"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 ThreadPinning = "811555cd-349b-4f26-b7bc-1f208b848042"
 
 [compat]
