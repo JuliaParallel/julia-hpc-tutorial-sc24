@@ -56,7 +56,10 @@ and then inside the Julia [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval
 using Pkg
 Pkg.instantiate()
 
-# Run the notebook
+# Set the number of threads used by julia inside  Jupyter
+ENV["JULIA_NUM_THREADS"] = "auto"
+
+# Run JupyterLab
 import IJulia
 IJulia.jupyterlab()
 ```
