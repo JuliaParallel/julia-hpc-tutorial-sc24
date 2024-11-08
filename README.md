@@ -35,6 +35,9 @@ sbatch scripts/job_perlmutter_ka_cuda.sh
 
 We will post instructions on how to use this repo's Jupyter Kernel at NERSC
 
+<details>
+<summary>Running the notebooks locally if you don't have access to Perlmutter</summary>
+
 ### Locally
 
 Clone this repository (make sure to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)) and then enter inside the new directory by running the following commands in a terminal (we recommend using [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4) if on Windows):
@@ -123,3 +126,14 @@ This will open the JupyterLab landing page in a new tab in your browser.
 If you want to make your app accessible to others (please remember to make sure there's no sensitive or private data in it!), navigate to the "Ports" tab, right click on the port 8888 and then "Port visibility" -> "Public".
 
 The `.devcontainer` used here has been adapted from the [Julia workshop for the UCL Festival of Digital Research & Scholarship 2024](https://github.com/UCL-ARC/julia-workshop), in turn based on the [Zero-setup R workshops with GitHub Codespaces](https://github.com/revodavid/devcontainers-rstudio) repository presented at [rstudio::conf 2022](https://rstudioconf2022.sched.com/event/11iag/zero-setup-r-workshops-with-github-codespaces).
+
+</details>
+
+## Further resources
+
+If you have further questions about the use of Julia, especially in HPC setting, check out
+
+* the [Julia Discourse web forum](https://discourse.julialang.org/) for asking questions
+* the [Julia on HPC clusters notes](https://juliahpc.github.io/)
+
+Everyone is also welcome to join the fortnightly [Julia HPC community calls](https://julialang.org/community/#events), the 2nd Thursday and the 4th Tuesday of the month.
