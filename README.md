@@ -15,19 +15,6 @@ We will again host a [Julia for HPC BoF at SC24](https://github.com/JuliaParalle
 
 ## Running Gray Scott reaction diffusion model on NERSC
 
-After connecting to your training account via SSH, proceed with the following steps to run the entire model.
-
-```sh
-cd $SCRATCH
-git clone https://github.com/Rabab53/GrayScott.jl.git
-cd GrayScott.jl/
-source scripts/config_perlmutter.sh
-
-sbatch scripts/job_perlmutter_plain_cpu.sh
-sbatch scripts/job_perlmutter_ka_cpu.sh
-sbatch scripts/job_perlmutter_plain_cuda.sh
-sbatch scripts/job_perlmutter_ka_cuda.sh
-```
 
 ## Running notebooks with JupyterLab
 
