@@ -13,7 +13,7 @@ It is recommended to access the Jupyter notebook for this section through this w
 
 [NERSC Jupyter notebook](https://jupyter.nersc.gov/)
 
-## Introduction to GPU programming in Julia
+## Introduction to GPU Programming in Julia
 
 If you're looking for an introductory overview of GPU programming in Julia or GPU programming concepts in general, feel free to explore this [notebook](https://github.com/JuliaParallel/julia-hpc-tutorial-sc24/blob/main/parts/gpu/gpu_introduction.ipynb).
 
