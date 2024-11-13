@@ -17,7 +17,7 @@ It is recommended to access the Jupyter notebook for this section through this w
 
 If you're looking for an introductory overview of GPU programming in Julia or GPU programming concepts in general, feel free to explore this [notebook](https://github.com/JuliaParallel/julia-hpc-tutorial-sc24/blob/main/parts/gpu/gpu_introduction.ipynb).
 
-## 2D Heat Diffusion Simulation Using Julia
+## Heat Diffusion Simulation Using Julia
 
 This [notebook](https://github.com/JuliaParallel/julia-hpc-tutorial-sc24/blob/main/parts/gpu/Heat_Diffusion.ipynb) introduces the heat diffusion problem using a finite difference method, demonstrating stencil computations optimized for GPU acceleration in Julia. It highlights performance gains from parallel computing, showcasing Julia's capabilities for efficient numerical simulations on GPUs.
 
