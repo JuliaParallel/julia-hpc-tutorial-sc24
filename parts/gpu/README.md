@@ -21,6 +21,6 @@ If you're looking for an introductory overview of GPU programming in Julia or GP
 
 This [notebook](https://github.com/JuliaParallel/julia-hpc-tutorial-sc24/blob/main/parts/gpu/Heat_Diffusion.ipynb) introduces the heat diffusion problem using a finite difference method, demonstrating stencil computations optimized for GPU acceleration in Julia. It highlights performance gains from parallel computing, showcasing Julia's capabilities for efficient numerical simulations on GPUs.
 
-##  Gray-Scott Reaction-Diffusion Model
+##  Gray-Scott Reaction-Diffusion Model Using Julia
 This [notebook](https://github.com/JuliaParallel/julia-hpc-tutorial-sc24/blob/main/parts/gpu/stencil.ipynb) introduces Gray-Scott Reaction-Diffusion model using Julia. 
  
