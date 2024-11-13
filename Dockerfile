@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM julia:1.11.1
+FROM ghcr.io/juliaparallel/julia-hpc-tutorial-sc24:main
 
 # Install git
 RUN /bin/sh -c 'export DEBIAN_FRONTEND=noninteractive \
