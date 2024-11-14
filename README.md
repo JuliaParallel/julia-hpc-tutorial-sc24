@@ -17,6 +17,10 @@ Note: if you have previously registered an account using a different code please
 
 **Important:** make a copy of your login and password you won’t be able to change these, nor recover them later!!!
 
+## Sign up for the tutorial's Slack workspace
+
+Please use [this link](https://join.slack.com/t/juliahpctutor-7z54837/shared_invite/zt-2t4ythu1d-20M9Nw6Zzd7TAeJyZDl2oQ) to sign up for our Slack workspace. This will also let you ask questions after the event.
+
 ## Julia for HPC Birds of a Feather session @ SC24
 
 We will again host a [Julia for HPC BoF at SC24](https://github.com/JuliaParallel/julia-hpc-bof-sc24)
