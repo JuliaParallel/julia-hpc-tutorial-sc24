@@ -7,7 +7,15 @@ This repository contains the material used for [The Julia Language for Productiv
 
 ## Apply for your Training at a DOE Supercomputer Now!
 
-We will post a signup form soon. Please check here again at least one month before the start of SC24
+1. Go to: https://iris.nersc.gov/train
+
+2. Enter the Training Code: `azvr` along with your details
+Note: if you have previously registered an account using a different code please recreate it.
+
+3. You will see a screen like this:
+![image58](https://github.com/user-attachments/assets/40556925-1c3e-4aee-9b1f-cee721f5c1a9)
+
+**Important:** make a copy of your login and password you won’t be able to change these, nor recover them later!!!
 
 ## Julia for HPC Birds of a Feather session @ SC24
 
