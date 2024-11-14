@@ -13,7 +13,7 @@ This repository contains the material used for [The Julia Language for Productiv
 Note: if you have previously registered an account using a different code please recreate it.
 
 3. You will see a screen like this:
-![image58](https://github.com/user-attachments/assets/40556925-1c3e-4aee-9b1f-cee721f5c1a9)
+<img src="https://github.com/user-attachments/assets/40556925-1c3e-4aee-9b1f-cee721f5c1a9" width="480">
 
 **Important:** make a copy of your login and password you won’t be able to change these, nor recover them later!!!
 
