@@ -38,7 +38,7 @@ The notebook presents a series of benchmarks comparing execution times across di
    - Offers flexibility with performance close to the `CUDA.jl` implementation.
 
 Here's the plot showing the benchmark results on a single A100 GPU in Perlmutter:
- ![Result](img/benchmarking.png)
+ <img src="images/benchmark_plot.png" alt="Benchmark Results" width="500">
 
 
 ### Key Takeaways
