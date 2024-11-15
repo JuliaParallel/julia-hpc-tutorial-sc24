@@ -37,6 +37,8 @@ The notebook presents a series of benchmarks comparing execution times across di
    - Uses `KernelAbstractions.jl` to write code that can run on both CPU and GPU.
    - Offers flexibility with performance close to the `CUDA.jl` implementation.
 
+Here's the plot showing the benchmark results on a single A100 GPU in Perlmutter:
+ ![Result](img/benchmarking.png)
 
 
 ### Key Takeaways
