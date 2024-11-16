@@ -1,0 +1,353 @@
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+   Resolving package versions...
+   Resolving package versions...
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+   Resolving package versions...
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+   Resolving package versions...
+   Resolving package versions...
+   Resolving package versions...
+   Resolving package versions...
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+   Resolving package versions...
+Precompiling project...
+  ? JACC → JACCCUDA
+  ? GrayScott
+   Resolving package versions...
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f18dd075cb is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+Precompiling project...
+  ? JACC → JACCCUDA
+  ? GrayScott
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f1dc88679d is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+Precompiling project...
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  ? JACC → JACCCUDA
+  ? GrayScott
+Precompiling project...
+Precompiling project...
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+    JACCCUDA Being precompiled by another machine (hostname: nid003153, pid: 775322, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid001364, pid: 2145486, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+    JACCCUDA Being precompiled by another machine (hostname: nid003153, pid: 775322, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+  ? GrayScott
+  ✓ GrayScott
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+   Resolving package versions...
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid003153, pid: 775322, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  ? GrayScott
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+  ✓ JACC → JACCCUDA
+  1 dependency successfully precompiled in 5 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-f5c78ffc06e6 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+Precompiling project...
+  ? JACC → JACCCUDA
+Precompiling project...
+    GrayScott Being precompiled by another machine (hostname: nid003297, pid: 1714531, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? GrayScott
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+  ? JACC → JACCCUDA
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:244
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  ✓ JACC → JACCCUDA
+  1 dependency successfully precompiled in 62 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-f5c829a7986c is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+  ✓ GrayScott
+  1 dependency successfully precompiled in 12 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f3b7ea0742 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+  ✓ JACC → JACCCUDA
+  2 dependencies successfully precompiled in 80 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+┌ Warning: attempting to remove probably stale pidfile
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:273
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid003224, pid: 1017320, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid003224, pid: 1017320, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? JACC → JACCCUDA
+  ? GrayScott
+Precompiling project...
+Precompiling project...
+Precompiling project...
+    JACCCUDA Being precompiled by another process (pid: 1589205, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    JACCCUDA Being precompiled by another process (pid: 1589205, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 1589200, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 1589200, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+Precompiling project...
+    JACCCUDA Being precompiled by another process (pid: 1589205, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 1589200, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid003336, pid: 1589203, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid003336, pid: 1589200, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? GrayScott
+  1 dependency successfully precompiled in 7 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+  ✓ JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+  ✓ GrayScott
+  1 dependency successfully precompiled in 4 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 5 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 6 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ JACC → JACCCUDA
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 13 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ JACC → JACCCUDA
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 12 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: failed to remove pidfile on close
+│   path = "/pscratch/sd/b/blaschke/gs_depot/logs/manifest_usage.toml.pid"
+│   removed = false
+└ @ FileWatching.Pidfile /global/common/software/nersc/n9/julia/1.10.4/share/julia/stdlib/v1.10/FileWatching/src/pidfile.jl:342
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+  ? JACC → JACCCUDA
+  ? GrayScott
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-e151f602d172 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-e151a6badd06 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-e15242ab0d62 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-f5c9992ae20f is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-f5c7dd7ea6f9 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f13de66f3c is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f22b8c9d58 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-e1528f6e1efb is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f4a154851b is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f45470ab72 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0005-f2f4074b992b is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948

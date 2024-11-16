@@ -1,0 +1,52 @@
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Simulation at step 10 writing output step 1.0
+Simulation at step 20 writing output step 2.0
+Simulation at step 30 writing output step 3.0
+Simulation at step 40 writing output step 4.0
+Simulation at step 50 writing output step 5.0
+Simulation at step 60 writing output step 6.0
+Simulation at step 70 writing output step 7.0
+Simulation at step 80 writing output step 8.0
+Simulation at step 90 writing output step 9.0
+Simulation at step 100 writing output step 10.0
+Simulation at step 110 writing output step 11.0
+Simulation at step 120 writing output step 12.0
+Simulation at step 130 writing output step 13.0
+Simulation at step 140 writing output step 14.0
+Simulation at step 150 writing output step 15.0
+Simulation at step 160 writing output step 16.0
+Simulation at step 170 writing output step 17.0
+Simulation at step 180 writing output step 18.0
+Simulation at step 190 writing output step 19.0
+Simulation at step 200 writing output step 20.0
+255.054551 seconds (8.86 M allocations: 122.326 GiB, 2.33% gc time, 3.41% compilation time: 3% of which was recompilation)
+255.582580 seconds (8.86 M allocations: 122.326 GiB, 2.32% gc time, 3.38% compilation time: 3% of which was recompilation)
+255.986930 seconds (8.86 M allocations: 122.326 GiB, 2.30% gc time, 3.38% compilation time: 3% of which was recompilation)
+193.169820 seconds (8.86 M allocations: 122.326 GiB, 3.16% gc time, 4.47% compilation time: 3% of which was recompilation)
+183.086122 seconds (8.84 M allocations: 122.325 GiB, 3.24% gc time, 4.73% compilation time: 3% of which was recompilation)
+130.080101 seconds (8.86 M allocations: 122.326 GiB, 4.53% gc time, 6.69% compilation time: 3% of which was recompilation)
+257.233513 seconds (8.88 M allocations: 122.327 GiB, 2.28% gc time, 3.38% compilation time: 3% of which was recompilation)
+213.520182 seconds (8.84 M allocations: 122.324 GiB, 2.74% gc time, 4.03% compilation time: 3% of which was recompilation)
+182.659097 seconds (8.86 M allocations: 122.326 GiB, 3.26% gc time, 4.74% compilation time: 3% of which was recompilation)
+130.734753 seconds (8.86 M allocations: 122.326 GiB, 4.50% gc time, 6.66% compilation time: 3% of which was recompilation)
+195.472493 seconds (8.86 M allocations: 122.326 GiB, 3.04% gc time, 4.43% compilation time: 3% of which was recompilation)
+241.699173 seconds (8.86 M allocations: 122.326 GiB, 2.46% gc time, 3.61% compilation time: 3% of which was recompilation)
+141.388585 seconds (8.86 M allocations: 122.326 GiB, 4.17% gc time, 6.13% compilation time: 3% of which was recompilation)
+184.528272 seconds (8.84 M allocations: 122.325 GiB, 3.22% gc time, 4.71% compilation time: 3% of which was recompilation)
+213.043730 seconds (8.84 M allocations: 122.324 GiB, 2.77% gc time, 4.06% compilation time: 3% of which was recompilation)
+162.678923 seconds (8.86 M allocations: 122.326 GiB, 3.60% gc time, 5.34% compilation time: 3% of which was recompilation)

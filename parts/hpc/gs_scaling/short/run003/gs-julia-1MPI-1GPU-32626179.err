@@ -1,0 +1,224 @@
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+   Resolving package versions...
+Precompiling project...
+    GrayScott Being precompiled by another machine (hostname: nid002844, pid: 622587, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? JACC → JACCCUDA
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+Precompiling project...
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid003841, pid: 1500368, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    JACCCUDA Being precompiled by another machine (hostname: nid003841, pid: 1500368, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    JACCCUDA Being precompiled by another machine (hostname: nid003841, pid: 1500368, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid003841, pid: 1500365, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? GrayScott
+  ✓ GrayScott
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  ✓ GrayScott
+  ✓ GrayScott
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+Precompiling project...
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752292, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid002532, pid: 609147, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752292, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid002532, pid: 609147, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+   Resolving package versions...
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752292, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid002532, pid: 609143, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  ✓ JACC → JACCCUDA
+  2 dependencies successfully precompiled in 24 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+Precompiling project...
+Precompiling project...
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid002844, pid: 622589, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid002844, pid: 622589, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid002844, pid: 622589, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid001981, pid: 752297, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid002844, pid: 622589, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ✓ JACC → JACCCUDA
+  1 dependency successfully precompiled in 32 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+  ✓ JACC → JACCCUDA
+  2 dependencies successfully precompiled in 34 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ JACC → JACCCUDA
+  2 dependencies successfully precompiled in 32 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51d5e8659bb2 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51d68246a2e1 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51d634eedce6 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51d6d9f03dc7 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+  ✓ JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+  ? GrayScott
+  1 dependency successfully precompiled in 13 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+  ✓ JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 36 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 34 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 39 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b28cf8c226 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+  ✓ JACC → JACCCUDA
+  ✓ GrayScott
+  ✓ JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+  2 dependencies successfully precompiled in 42 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b82e9bdb83 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b328a61440 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 64 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 66 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 65 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b784ff16de is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b7d9b02d53 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b72b813bbb is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b530141088 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51b2306ba2e7 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  ✓ GrayScott
+  1 dependency successfully precompiled in 138 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51ad5357a380 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid002920, pid: 621189, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid002920, pid: 621189, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 612393, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? GrayScott
+Precompiling project...
+    JACCCUDA Being precompiled by another machine (hostname: nid002920, pid: 621189, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 612395, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ✓ GrayScott
+  ✓ GrayScott
+  ✓ JACC → JACCCUDA
+  1 dependency successfully precompiled in 12 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51d0984f04fd is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+  ✓ JACC → JACCCUDA
+  2 dependencies successfully precompiled in 22 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  ✓ JACC → JACCCUDA
+  2 dependencies successfully precompiled in 22 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51d0e504b7c2 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-51d13030d540 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948

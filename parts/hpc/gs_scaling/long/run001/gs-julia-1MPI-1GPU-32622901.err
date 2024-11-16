@@ -1,0 +1,386 @@
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+    Updating registry at `/pscratch/sd/b/blaschke/gs_depot/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Project.toml`
+  No Changes to `/pscratch/sd/b/blaschke/blaschke/GrayScott.jl/Manifest.toml`
+Precompiling project...
+Precompiling project...
+    JACCCUDA Being precompiled by another process (pid: 190613, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another process (pid: 190611, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+  ? GrayScott
+  1 dependency successfully precompiled in 6 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+  ✓ GrayScott
+  1 dependency successfully precompiled in 9 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-4de5690228d3 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-4de51930bb2f is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+Precompiling project...
+    GrayScott Being precompiled by another machine (hostname: nid003153, pid: 775325, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+Precompiling project...
+    JACCCUDA Being precompiled by another process (pid: 190609, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/JACCCUDA/HpbLI_z5c7n.ji.pidfile)
+    GrayScott Being precompiled by another machine (hostname: nid003153, pid: 775325, pidfile: /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/GrayScott/IFF6I_z5c7n.ji.pidfile)
+  ? JACC → JACCCUDA
+  ✓ JACC → JACCCUDA
+  ✓ GrayScott
+  1 dependency successfully precompiled in 23 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+  1 dependency failed but may be precompilable after restarting julia
+  ✓ GrayScott
+  2 dependencies successfully precompiled in 23 seconds. 124 already precompiled.
+  1 dependency precompiled but a different version is currently loaded. Restart julia to access the new version
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-4de80cafc6cd is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+┌ Warning: Module JACC with build ID ffffffff-ffff-ffff-0000-4de85c88aca5 is missing from the cache.
+│ This may mean JACC [0979c8fe-16a4-4796-9b82-89a9f10403ea] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:1948
+slurmstepd: error: Detected 1 oom_kill event in StepId=32622901.0. Some of the step tasks have been OOM Killed.
+srun: error: nid001260: task 1: Out Of Memory
+srun: Terminating StepId=32622901.0
+slurmstepd: error: *** STEP 32622901.0 ON nid001260 CANCELLED AT 2024-11-06T19:23:17 ***
+
+[190611] signal (15): Terminated
+in expression starting at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:12
+
+[190613] signal (15): Terminated
+in expression starting at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:12
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+poptask at ./task.jl:985
+poptask at ./task.jl:985
+
+[190608] signal (15): Terminated
+in expression starting at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:12
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+wait at ./task.jl:994
+wait at ./task.jl:994
+#wait#645 at ./condition.jl:130
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f9d8a4ca048)
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7fab268ca7b8)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+poptask at ./task.jl:985
+poptask at ./task.jl:985
+poptask at ./task.jl:985
+wait at ./task.jl:994
+wait at ./task.jl:994
+wait at ./task.jl:994
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7fab268ca7b8)
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f9d8a4ca048)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f097fcc9c48)
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+poptask at ./task.jl:985
+poptask at ./task.jl:985
+poptask at ./task.jl:985
+wait at ./task.jl:994
+wait at ./task.jl:994
+wait at ./task.jl:994
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f9d8a4ca048)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7fab268ca7b8)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f097fcc9c48)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+poptask at ./task.jl:985
+poptask at ./task.jl:985
+poptask at ./task.jl:985
+wait at ./task.jl:994
+wait at ./task.jl:994
+wait at ./task.jl:994
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7fab268ca7b8)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f9d8a4ca048)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+clock_nanosleep at /lib64/libc.so.6 (unknown line)
+nanosleep at /lib64/libc.so.6 (unknown line)
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+clock_nanosleep at /lib64/libc.so.6 (unknown line)
+nanosleep at /lib64/libc.so.6 (unknown line)
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f097fcc9c48)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+pthread_cond_wait at /lib64/libpthread.so.0 (unknown line)
+uv_cond_wait at /workspace/srcdir/libuv/src/unix/thread.c:883
+ijl_task_get_next at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/partr.c:517
+_ZN6adios24core6engine9BP5Writer21WriteData_TwoLevelShmEPNS_6format7BufferVE at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer21WriteData_TwoLevelShmEPNS_6format7BufferVE at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer9WriteDataEPNS_6format7BufferVE at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer9WriteDataEPNS_6format7BufferVE at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer7EndStepEv at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer7EndStepEv at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+poptask at ./task.jl:985
+adios2_end_step at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/libadios2_c.so (unknown line)
+end_step at /pscratch/sd/b/blaschke/gs_depot/packages/ADIOS2/tlpBh/src/engine.jl:296
+write_step! at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/src/simulation/IO.jl:57
+unknown function (ip: 0x7f9b57d01f5e)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+main at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/src/GrayScott.jl:77
+julia_main at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:8 [inlined]
+macro expansion at ./timing.jl:279 [inlined]
+top-level scope at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:13
+adios2_end_step at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/libadios2_c.so (unknown line)
+end_step at /pscratch/sd/b/blaschke/gs_depot/packages/ADIOS2/tlpBh/src/engine.jl:296
+write_step! at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/src/simulation/IO.jl:57
+unknown function (ip: 0x7fa8e023e94e)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+main at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/src/GrayScott.jl:77
+julia_main at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:8 [inlined]
+macro expansion at ./timing.jl:279 [inlined]
+top-level scope at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:13
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:925
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:925
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:877
+ijl_toplevel_eval_in at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:985
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:877
+ijl_toplevel_eval_in at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:985
+wait at ./task.jl:994
+eval at ./boot.jl:385 [inlined]
+include_string at ./loading.jl:2076
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+eval at ./boot.jl:385 [inlined]
+include_string at ./loading.jl:2076
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+#wait#645 at ./condition.jl:130
+wait at ./condition.jl:125 [inlined]
+take! at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:53
+synchronization_worker at /pscratch/sd/b/blaschke/gs_depot/packages/CUDA/2kjXI/lib/cudadrv/synchronization.jl:119
+unknown function (ip: 0x7f097fcc9c48)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jlcapi_synchronization_worker_13829 at /pscratch/sd/b/blaschke/gs_depot/compiled/v1.10/CUDA/oWw5k_HcpwU.so (unknown line)
+start_thread at /lib64/libpthread.so.0 (unknown line)
+clone at /lib64/libc.so.6 (unknown line)
+unknown function (ip: (nil))
+__write at /lib64/libc.so.6 (unknown line)
+_ZN6adios29transport9FilePOSIX5WriteEPKcmm at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios29Transport6WriteVEPKNS_4core5iovecEim at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios212transportman12TransportMan11WriteFileAtEPKNS_4core5iovecEmmi at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer14WriteMyOwnDataEPNS_6format7BufferVE at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer21WriteData_TwoLevelShmEPNS_6format7BufferVE at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer9WriteDataEPNS_6format7BufferVE at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+_ZN6adios24core6engine9BP5Writer7EndStepEv at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/../lib64/libadios2_core.so.2.10 (unknown line)
+adios2_end_step at /global/common/software/nersc/julia_hpc_24/adios2/gnu/lib64/libadios2_c.so (unknown line)
+end_step at /pscratch/sd/b/blaschke/gs_depot/packages/ADIOS2/tlpBh/src/engine.jl:296
+write_step! at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/src/simulation/IO.jl:57
+unknown function (ip: 0x7f0751c929fe)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+main at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/src/GrayScott.jl:77
+julia_main at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:8 [inlined]
+macro expansion at ./timing.jl:279 [inlined]
+top-level scope at /pscratch/sd/b/blaschke/blaschke/GrayScott.jl/gray-scott.jl:13
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:925
+jl_toplevel_eval_flex at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:877
+ijl_toplevel_eval_in at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/toplevel.c:985
+_include at ./loading.jl:2136
+_include at ./loading.jl:2136
+eval at ./boot.jl:385 [inlined]
+include_string at ./loading.jl:2076
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+include at ./Base.jl:495
+include at ./Base.jl:495
+_include at ./loading.jl:2136
+include at ./Base.jl:495
+jfptr_include_46393.1 at /global/common/software/nersc/n9/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jfptr_include_46393.1 at /global/common/software/nersc/n9/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+exec_options at ./client.jl:318
+exec_options at ./client.jl:318
+jfptr_include_46393.1 at /global/common/software/nersc/n9/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+_start at ./client.jl:552
+_start at ./client.jl:552
+exec_options at ./client.jl:318
+jfptr__start_82729.1 at /global/common/software/nersc/n9/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jfptr__start_82729.1 at /global/common/software/nersc/n9/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jl_apply at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/julia.h:1982 [inlined]
+true_main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:582
+jl_repl_entrypoint at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:731
+jl_apply at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/julia.h:1982 [inlined]
+true_main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:582
+jl_repl_entrypoint at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:731
+main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/cli/loader_exe.c:58
+__libc_start_main at /lib64/libc.so.6 (unknown line)
+unknown function (ip: 0x4010b8)
+unknown function (ip: (nil))
+Allocations: 25421710 (Pool: 25392183; Big: 29527); GC: 675
+_start at ./client.jl:552
+main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/cli/loader_exe.c:58
+__libc_start_main at /lib64/libc.so.6 (unknown line)
+unknown function (ip: 0x4010b8)
+unknown function (ip: (nil))
+Allocations: 25383755 (Pool: 25354196; Big: 29559); GC: 675
+jfptr__start_82729.1 at /global/common/software/nersc/n9/julia/1.10.4/lib/julia/sys.so (unknown line)
+_jl_invoke at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:2895 [inlined]
+ijl_apply_generic at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/gf.c:3077
+jl_apply at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/julia.h:1982 [inlined]
+true_main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:582
+jl_repl_entrypoint at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/src/jlapi.c:731
+main at /cache/build/builder-amdci4-0/julialang/julia-release-1-dot-10/cli/loader_exe.c:58
+__libc_start_main at /lib64/libc.so.6 (unknown line)
+unknown function (ip: 0x4010b8)
+unknown function (ip: (nil))
+Allocations: 25376078 (Pool: 25346549; Big: 29529); GC: 673
+BP5 Writer "gs-1MPI-1GPU-64L-F32-JACC-CUDA.bp" Destroyed without a prior Close().
+This may result in corrupt output.

@@ -1,0 +1,28 @@
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Using CUDA as back end
+Simulation at step 10 writing output step 1.0
+Simulation at step 20 writing output step 2.0
+Simulation at step 30 writing output step 3.0
+Simulation at step 40 writing output step 4.0
+Simulation at step 50 writing output step 5.0
+Simulation at step 60 writing output step 6.0
+Simulation at step 70 writing output step 7.0
+Simulation at step 80 writing output step 8.0
+Simulation at step 90 writing output step 9.0
+Simulation at step 100 writing output step 10.0
+Simulation at step 110 writing output step 11.0
+Simulation at step 120 writing output step 12.0
+Simulation at step 130 writing output step 13.0
+Simulation at step 140 writing output step 14.0
+Simulation at step 150 writing output step 15.0
+Simulation at step 160 writing output step 16.0
+Simulation at step 170 writing output step 17.0
+Simulation at step 180 writing output step 18.0
+Simulation at step 190 writing output step 19.0
+Simulation at step 200 writing output step 20.0
+528.768322 seconds (8.88 M allocations: 484.910 GiB, 4.30% gc time, 1.65% compilation time: 3% of which was recompilation)
+518.344579 seconds (8.84 M allocations: 484.908 GiB, 3.96% gc time, 1.68% compilation time: 3% of which was recompilation)
+520.703689 seconds (8.86 M allocations: 484.909 GiB, 3.80% gc time, 1.68% compilation time: 3% of which was recompilation)
+519.533097 seconds (8.84 M allocations: 484.908 GiB, 3.78% gc time, 1.68% compilation time: 3% of which was recompilation)
