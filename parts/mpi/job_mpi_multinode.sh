@@ -19,4 +19,4 @@ source ../../activate.sh
 # to configure MPI. If you tried to use `MPI.Init()` outside of an srun, then
 # the program will crash. Note also that you can't run an srun _insite_ of
 # another srun.
-srun julia -e 'do_save=false; include("diffusion_2d_mpi.jl");'
+srun julia -e 'do_save=true; include("diffusion_2d_mpi.jl");'
