@@ -1,2 +1,10 @@
-nprocs = 4, dims = [2, 2]
-Time = 1.2309e-02 s, T_eff = 7.67 GB/s 
+nprocs = 4, dims = (2, 2)
+Time = 1.2562e-02 s, T_eff = 7.51 GB/s 
+┌ Warning: Opening file with JLD2.MmapIO failed, falling back to IOStream
+└ @ JLD2 /pscratch/sd/b/blaschke/depot/packages/JLD2/KyKLQ/src/JLD2.jl:153
+┌ Warning: Opening file with JLD2.MmapIO failed, falling back to IOStream
+└ @ JLD2 /pscratch/sd/b/blaschke/depot/packages/JLD2/KyKLQ/src/JLD2.jl:153
+┌ Warning: Opening file with JLD2.MmapIO failed, falling back to IOStream
+└ @ JLD2 /pscratch/sd/b/blaschke/depot/packages/JLD2/KyKLQ/src/JLD2.jl:153
+┌ Warning: Opening file with JLD2.MmapIO failed, falling back to IOStream
+└ @ JLD2 /pscratch/sd/b/blaschke/depot/packages/JLD2/KyKLQ/src/JLD2.jl:153

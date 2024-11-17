@@ -29,3 +29,6 @@ Manifest.toml
 activate.sh
 deactivate.sh
 ext/GrayScott.jl
+
+
+*.jld2
