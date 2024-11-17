@@ -6,7 +6,7 @@
 #SBATCH --time=00:05:00
 #SBATCH --nodes=4
 #SBATCH --ntasks=16
-#SBATCH --reservation=julia_MIT_1
+#SBATCH --reservation=julia_sc24
 
 # Load the latest Julia Module
 ml load julia

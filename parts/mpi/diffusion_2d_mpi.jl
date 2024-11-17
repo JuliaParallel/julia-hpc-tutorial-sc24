@@ -2,7 +2,7 @@
 using Printf
 using JLD2
 using MPI
-include(joinpath(@__DIR__, "../shared.jl"))
+include(joinpath(@__DIR__, "shared.jl"))
 
 # convenience macros simply to avoid writing nested finite-difference expression
 macro qx(ix, iy) esc(:(-D * (C[$ix+1, $iy] - C[$ix, $iy]) / dx)) end

@@ -1,0 +1,2 @@
+nprocs = 16, dims = (4, 4)
+Time = 1.3388e-02 s, T_eff = 7.05 GB/s 
