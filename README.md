@@ -71,6 +71,36 @@ because it tries to streamline the process by:
 2. Generating a `activate.sh` script which activates any customizations to the
    user shell environment
 
+### Step-By-Step Guide for setting up Juputer Kernels at NERSC:
+
+
+1. Go to https://jupyter.nersc.gov and log in with your credentials -- you should see soemthing like this:
+<img width="825" alt="image" src="https://github.com/user-attachments/assets/7abc3be2-1ad2-43f4-b2d1-fe6e7b5e8e5a">
+You might not see the bright red “stop” button, and probably fewer rows/columns – that’s OK. Select “Server” in the “Login Node” column and “Perlmutter” row (red box)
+
+2. After a short while, you should see a blue button (with a “+” sign) in the top left hand corner. Push it, and then select “Terminal” (you might need to scroll)
+<img width="818" alt="image" src="https://github.com/user-attachments/assets/c642bfec-d525-4d87-a53b-16625e16ed81">
+
+3. If you did everything correctly, you should see a terminal window in the left-hand tab:
+<img width="793" alt="image" src="https://github.com/user-attachments/assets/a7d0a60f-e20c-465d-89c8-433fb146b5d7">
+
+4. Clone the tutorial repository:
+```sh
+git clone https://github.com/JuliaParallel/julia-hpc-tutorial-sc24
+```
+
+5. Enter the tutorial folder:
+```sh
+git clone https://github.com/JuliaParallel/julia-hpc-tutorial-sc24
+cd julia-hpc-tutorial-sc24
+```
+
+6. Run the install script:
+```sh
+./install.sh
+```
+(this might take some time – that’s OK)
+
 </details>
 
 <details>
