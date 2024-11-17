@@ -44,7 +44,7 @@ activates any customizations to the user shell environment.
 
 ### Running Gray Scott reaction diffusion model on NERSC
 
-Please refer to [installation and configuration](https://juliaornl.github.io/TutorialJuliaHPC/applications/GrayScott/06-Perlmutter.html) instructions for Perlmutter.
+Please refer to [Installation and Configuration](https://juliaornl.github.io/TutorialJuliaHPC/applications/GrayScott/06-Perlmutter.html) instructions for Perlmutter. The [HPC Scaling Example](parts/hpc/gs_scaling) shows how you might do a scaling run with the Gray-Scott code.
 
 ## Running Notebooks with JupyterLab
 
