@@ -10,6 +10,9 @@
 # Load the latest Julia Module
 ml load julia
 
+# This will load the activate.sh in the root path of this repository
+# IMPORTATION: for this relative path to work, you need to be in this
+# directory when running `sbatch`
 # NOTE: because the `solution folder is at a deeper level from the project root
 # as the excercise, we've added an additional `/..` to get back to the
 # `activate.sh`
