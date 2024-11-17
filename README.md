@@ -25,10 +25,11 @@ Please use [this link](https://join.slack.com/t/juliahpctutor-7z54837/shared_inv
 
 We will again host a [Julia for HPC BoF at SC24](https://github.com/JuliaParallel/julia-hpc-bof-sc24)
 
-## Running Gray Scott reaction diffusion model on NERSC
+## Getting Started at NERSC
 
+The [Cheat Sheet](./Cheat%20Sheet.pdf) outlines the steps you need to get started at NERSC.  
 
-## Special Considerations for Running on NERSC
+### Special Considerations for Running on NERSC
 
 NERSC has about 10000 users, therefore the system-wide configurations are
 pretty bare-bones. On single-user systems (like your local workstation, laptop,
@@ -40,6 +41,10 @@ customizing YOUR shell.
 The solution presented here is to install all necessary Julia packages using
 the `install.sh` script. This script also generates `activate.sh` which
 activates any customizations to the user shell environment.
+
+### Running Gray Scott reaction diffusion model on NERSC
+
+Please refer to [installation and configuration](https://juliaornl.github.io/TutorialJuliaHPC/applications/GrayScott/06-Perlmutter.html) instructions for Perlmutter.
 
 ## Running Notebooks with JupyterLab
 
