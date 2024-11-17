@@ -28,14 +28,50 @@ We will again host a [Julia for HPC BoF at SC24](https://github.com/JuliaParalle
 ## Running Gray Scott reaction diffusion model on NERSC
 
 
-## Running notebooks with JupyterLab
+## Special Considerations for Running on NERSC
+
+NERSC has about 10000 users, therefore the system-wide configurations are
+pretty bare-bones. On single-user systems (like your local workstation, laptop,
+or even the cloud), we've fallen into the habbit of making the system-wide
+configurations our own. Sadly we can't do that on a shared system like NERSC's
+Perlmutter supercomputer -- just imagine the pandemonium for thousands of users
+customizing YOUR shell.
+
+The solution presented here is to install all necessary Julia packages using
+the `install.sh` script. This script also generates `activate.sh` which
+activates any customizations to the user shell environment.
+
+## Running Notebooks with JupyterLab
+
+<details>
+<summary>
+    Running the notebooks on Perlmutter
+</summary>
 
 ### On NERSC
 
-We will post instructions on how to use this repo's Jupyter Kernel at NERSC
+Jupyter on HPC is a little different from running it locally or in the cloud.
+These instructiosn are based on NERSC's 
+[official documentation for Jupyter](https://docs.nersc.gov/services/jupyter/) 
+The key difference is that you need to use the `install.sh` script to put the
+Jupyer kernel specs in the location that JupyterHub expects
+(`~/.local/share/jupyter/kernels`). The `install.sh` script is fairly involved
+because it tries to streamline the process by:
+
+1. Gernerating a single-threaded and a multi-threaded kernel (the multi-threaded
+   kernel is different form the single-threaded case because sets the
+   `JULIA_NUM_THREADS` environment variable) from a template 
+   (`nersc/jupyter/template`)
+
+2. Generating a `activate.sh` script which activates any customizations to the
+   user shell environment
+
+</details>
 
 <details>
-<summary>Running the notebooks locally if you don't have access to Perlmutter</summary>
+<summary>
+    Running the notebooks locally if you don't have access to Perlmutter
+</summary>
 
 ### Locally
 
