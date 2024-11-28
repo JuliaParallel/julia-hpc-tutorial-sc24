@@ -1,0 +1,9 @@
+[deps]
+ADIOS2 = "e0ce9d3b-0dbd-416f-8264-ccca772f60ec"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+GrayScott = "089a57ea-382b-4fd7-9f05-24902db6ec52"
+MPI = "da04e1cc-30fd-572f-bb4f-1f8673147195"
+
+[extras]
+MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
