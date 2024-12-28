@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM ghcr.io/juliaparallel/julia-hpc-tutorial-sc24:main
+FROM julia:1.11.2
 
 # Install git
 RUN /bin/sh -c 'export DEBIAN_FRONTEND=noninteractive \
@@ -19,4 +19,4 @@ RUN julia --color=yes -e 'using InteractiveUtils; versioninfo()'
 RUN mkdir -p /root/.julia/environments/v1.11
 COPY Project.toml  /root/.julia/environments/v1.11/Project.toml
 COPY Manifest-v1.11.toml /root/.julia/environments/v1.11/Manifest.toml
-RUN . /julia_cpu_target.sh && julia --color=yes -e 'using Pkg; Pkg.instantiate(); import Conda; Conda.add("jupyterlab")'
+RUN . /julia_cpu_target.sh && julia --color=yes -e 'using Pkg; Pkg.gc(); Pkg.instantiate(); import Conda; Conda.add("jupyterlab")'
