@@ -9,7 +9,7 @@ ml load cray-hdf5-parallel
 ml load adios2
 
 export JULIA_PROJECT={{TUTORIAL_REPO_DIR}}
-export JULIA_DEPOT_PATH=${SCRATCH}/depot
+export JULIA_DEPOT_PATH=/global/cfs/projectdirs/m4746/Users/nora/.julia
 export JULIA_NUM_THREADS={{THREADS_CT}}
 
 readarray -t ijulia_boostrap < <(julia {{NERSC_RESOURCE_DIR}}/bootstrap.jl)

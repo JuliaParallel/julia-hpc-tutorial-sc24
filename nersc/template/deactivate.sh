@@ -7,7 +7,7 @@ then
     unset JULIA_PROJECT
 fi
 
-if [[ "${JULIA_DEPOT_PATH}" == "${SCRATCH}/depot" ]]
+if [[ "${JULIA_DEPOT_PATH}" == "/global/cfs/projectdirs/m4746/Users/nora/.julia" ]]
 then
     unset JULIA_DEPOT_PATH
 fi
