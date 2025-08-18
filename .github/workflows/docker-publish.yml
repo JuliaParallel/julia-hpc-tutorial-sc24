@@ -48,7 +48,7 @@ jobs:
     steps:
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       # Docker is terrible and doesn't like uppercase image names.
       - name: Lowercase image name
