@@ -64,7 +64,7 @@ jobs:
       # Needed to make caching on GHA work: https://stackoverflow.com/a/73884678.
       # https://github.com/docker/setup-buildx-action
       - name: Setup Docker buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
 
       # Log into the registry except on PRs.
       # https://github.com/docker/login-action
